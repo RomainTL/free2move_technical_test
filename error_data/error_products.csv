@@ -1,0 +1,10 @@
+,product_id,product_category_name,product_name_lenght,product_description_lenght,product_photos_qty,product_weight_g,product_length_cm,product_height_cm,product_width_cm,product_category_name_english,error_msg
+0,a41e356c76fab66334f36de622ecbd3z,,,,650.0,17.0,14.0,12.0,,,"null value in column ""product_width_cm"" of relation ""products"" violates not-null constraint
+DETAIL:  Failing row contains (a41e356c76fab66334f36de622ecbd3z, null, null, null, 650, 17, 14, 12, null, null).
+"
+1,09ff539a621711667c43eba6a3bd8466,baby,60.0,865.0,3.0,,,,,baby,"null value in column ""product_weight_g"" of relation ""products"" violates not-null constraint
+DETAIL:  Failing row contains (09ff539a621711667c43eba6a3bd8466, baby, 60, 865, 3, null, null, null, null, baby).
+"
+2,5eb564652db742ff8f28759cd8d2652a,,,,,,,,,,"null value in column ""product_weight_g"" of relation ""products"" violates not-null constraint
+DETAIL:  Failing row contains (5eb564652db742ff8f28759cd8d2652a, null, null, null, null, null, null, null, null, null).
+"

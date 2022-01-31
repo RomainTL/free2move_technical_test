@@ -1,0 +1,8 @@
+,order_id,customer_id,order_status,order_purchase_timestamp,order_approved_at,order_delivered_carrier_date,order_delivered_customer_date,order_estimated_delivery_date,error_msg
+0,01855f880aae9a984c7c33b26fcf2e02,2e068340b3037f667ce3224bd59260af,delivered,0000-10-19 15:08:48,0000-10-19 15:35:35,0000-10-23 13:14:16,0000-10-24 15:57:46,0000-10-31 00:00:00,"date/time field value out of range: ""0000-10-19 15:08:48""
+LINE 1: ... '2e068340b3037f667ce3224bd59260af', 'delivered', '0000-10-1...
+                                                             ^
+"
+1,2d3ae8314361346376456addbeb7e5ed,99895a9b5ea7a5e7b2bd960ade35f89a,2018-02-12 11:28:47,2018-02-12 12:28:03,2018-02-14 20:17:57,2018-02-19 12:09:33,2018-03-15 00:00:00,,"null value in column ""order_estimated_delivery_date"" of relation ""orders"" violates not-null constraint
+DETAIL:  Failing row contains (2d3ae8314361346376456addbeb7e5ed, 99895a9b5ea7a5e7b2bd960ade35f89a, 2018-02-12 11:28:47, 2018-02-12 12:28:03, 2018-02-14 20:17:57, 2018-02-19 12:09:33, 2018-03-15 00:00:00, null).
+"

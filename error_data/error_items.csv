@@ -1,0 +1,64 @@
+,order_id,order_item_id,product_id,seller_id,shipping_limit_date,price,freight_value,error_msg
+0,01855f880aae9a984c7c33b26fcf2e02,1,12bc892d6fff0dc42c8177f3665ef00e,e9779976487b77c6d4ac45f75ec7afe9,2017-10-25 15:35:35,39.49,8.27,"insert or update on table ""items"" violates foreign key constraint ""fk_order_id""
+DETAIL:  Key (order_id)=(01855f880aae9a984c7c33b26fcf2e02) is not present in table ""orders"".
+"
+1,01855f880aae9a984c7c33b26fcf2e02,2,12bc892d6fff0dc42c8177f3665ef00e,e9779976487b77c6d4ac45f75ec7afe9,2017-10-25 15:35:35,39.49,8.27,"insert or update on table ""items"" violates foreign key constraint ""fk_order_id""
+DETAIL:  Key (order_id)=(01855f880aae9a984c7c33b26fcf2e02) is not present in table ""orders"".
+"
+2,101157d4fae1c9fb74a00a5dee265c25,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-04-11 08:02:26,29.0,14.52,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+3,1521c6bb7b1028154c8c67cf80fa809f,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-04-07 10:10:16,29.0,16.05,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+4,2d3ae8314361346376456addbeb7e5ed,1,84f456958365164420cfc80fbe4c7fab,4a3ca9315b744ce9f8e9374361493884,2018-02-16 11:48:27,92.0,17.0,"insert or update on table ""items"" violates foreign key constraint ""fk_order_id""
+DETAIL:  Key (order_id)=(2d3ae8314361346376456addbeb7e5ed) is not present in table ""orders"".
+"
+5,415cfaaaa8cea49f934470548797fed1,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-04-07 10:35:19,29.0,14.52,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+6,415cfaaaa8cea49f934470548797fed1,2,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-04-07 10:35:19,29.0,14.52,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+7,595316a07cd3dea9db7adfcc7e247ae7,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-08-18 04:26:04,39.0,9.27,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+8,6e150190fbe04c642a9cf0b80d83ee16,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-06-30 16:45:14,39.0,16.79,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+9,6f497c40431d5fb0cfbd6c943dd29215,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-04-11 05:55:32,29.0,10.96,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+10,85f8ad45e067abd694b627859fa57453,1,09ff539a621711667c43eba6a3bd8466,8b8cfc8305aa441e4239358c9f6f2485,2017-02-03 21:40:02,1934.0,27.0,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(09ff539a621711667c43eba6a3bd8466) is not present in table ""products"".
+"
+11,a2456e7f02197951664897a94c87242d,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-04-06 11:50:09,29.0,24.84,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+12,a7a43f469c0d7bdb0a23a82db125aefa,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-08-28 13:15:11,39.0,15.1,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+13,bbfc7badbed2f1828e22b6d629201bd4,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-07-18 04:04:10,39.0,11.85,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+14,bf49f84a0580ef6751e13357776b7ed9,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-07-09 21:35:18,39.0,15.1,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+15,c1424efcde3c9e9febd9e1761667789e,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-04-14 02:45:36,29.0,14.52,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+16,d38dcb503cd4ddc6ce7702552918bd8f,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-06-09 17:55:13,39.0,15.1,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+17,d38dcb503cd4ddc6ce7702552918bd8f,2,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-06-09 17:55:13,39.0,15.1,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+18,ddf16d77e858a32f36e10c289a28ef61,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-05-02 10:50:08,29.0,14.52,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+19,e3daea0200104991cb979c2fcc509ae7,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-04-06 14:22:36,29.0,10.96,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"
+20,eb855beb3ac99461f7a076b4c3652472,1,5eb564652db742ff8f28759cd8d2652a,4e922959ae960d389249c378d1c939f5,2017-03-30 16:03:46,29.0,14.52,"insert or update on table ""items"" violates foreign key constraint ""fk_product_id""
+DETAIL:  Key (product_id)=(5eb564652db742ff8f28759cd8d2652a) is not present in table ""products"".
+"

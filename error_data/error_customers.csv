@@ -1,0 +1,7 @@
+,customer_id,customer_unique_id,customer_zip_code_prefix,customer_city,customer_state,error_msg
+0,9b8ce803689b3562defaad4613ef426f,7f3a72e8f988c6e735ba118d54f47458,05416,,SP,"null value in column ""customer_city"" of relation ""customers"" violates not-null constraint
+DETAIL:  Failing row contains (9b8ce803689b3562defaad4613ef426f, 7f3a72e8f988c6e735ba118d54f47458, 05416, null, SP).
+"
+1,7d1dd3c96c21c803f7a1a32aa8d9feb9,,,,SP,"null value in column ""customer_unique_id"" of relation ""customers"" violates not-null constraint
+DETAIL:  Failing row contains (7d1dd3c96c21c803f7a1a32aa8d9feb9, null, null, null, SP).
+"
