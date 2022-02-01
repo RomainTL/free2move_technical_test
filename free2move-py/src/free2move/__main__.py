@@ -3,6 +3,8 @@
 import argparse
 from pathlib import Path
 
+from pandas import DataFrame
+
 from free2move.entrypoints import entrypoint_question1, entrypoint_question2, entrypoint_question3, entrypoint_question4
 from free2move.utils import get_conn_args
 
@@ -41,9 +43,12 @@ def main():
             conn_args=get_conn_args(),
             datetime_str=args.datetime_str
         )
-        answer_path = answer_path.with_suffix(".csv")
-        print(f"\nAnswer path: {answer_path.as_posix()}")
-        answer.to_csv(answer_path, index=False)
+
+        if isinstance(answer, DataFrame):
+            answer_path = answer_path.with_suffix(".csv")
+            print(f"\nAnswer path: {answer_path.as_posix()}")
+            answer.to_csv(answer_path, index=False)
+
         print(f"Answer:\n{answer}")
 
     elif args.question == 3:
@@ -54,19 +59,24 @@ def main():
             start_datetime_str=args.start_datetime_str,
             end_datetime_str=args.end_datetime_str
         )
-        answer_path = answer_path.with_suffix(".csv")
-        print(f"\nAnswer path: {answer_path.as_posix()}")
-        answer.to_csv(answer_path, index=False)
+
+        if isinstance(answer, DataFrame):
+            answer_path = answer_path.with_suffix(".csv")
+            print(f"\nAnswer path: {answer_path.as_posix()}")
+            answer.to_csv(answer_path, index=False)
+
         print(f"\nAnswer:\n{answer}")
 
     elif args.question == 4:
         answer = entrypoint_question4(
             conn_args=get_conn_args()
         )
+
         answer_path = answer_path.with_suffix(".txt")
         print(f"\nAnswer path: {answer_path.as_posix()}")
         with open(answer_path, "w") as outfile:
             outfile.write(str(answer))
+
         print(f"\nAnswer:\n{answer} repeaters")
 
     else:
