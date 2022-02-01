@@ -64,8 +64,8 @@ Just follow the instruction of the error and add the necessary path to your shar
 ## Answers
 
 
-Answers are written in the docker container in /tmp.
-You can simply get it with:
+Answers are written in the docker container in /tmp.  
+For example, you can get the answer3 with:
 ```bash
 docker cp free2move_container:/tmp/answer3.csv .
 ```
@@ -103,7 +103,7 @@ docker exec free2move_container free2move -q 4
 Check the file answer/answer4.txt to have more details.
 
 
-## What remains to be done in free2move pkg
+## What remains to be done in free2move
   * add environment variables
   * add custom error
   * add documentation
